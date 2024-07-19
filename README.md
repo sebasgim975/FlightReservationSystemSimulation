@@ -12,7 +12,7 @@ Booking data is stored and can be accessed on the text file Client_Flight_Info.t
 
 1. Install Java JDK
 
--Go to the Oracle JDK download page.
+-Go to the [Oracle JDK download page](https://www.oracle.com/java/technologies/downloads/#jdk22-linux).
 
 -Select the appropriate JDK for your operating system (make sure it’s JDK 11 or higher).
 
@@ -20,16 +20,16 @@ Booking data is stored and can be accessed on the text file Client_Flight_Info.t
 
 2. Install IntelliJ IDEA
 
--Visit the IntelliJ IDEA download page.
+-Visit the [IntelliJ IDEA download page](https://www.jetbrains.com/idea/download/?section=windows).
 
 -Choose the edition you prefer (Community Edition is free and sufficient for this project).
 
 -Download and install IntelliJ IDEA following the instructions on the site.
 
 3. Clone the repository by inputting the following to a Terminal:
-
-git clone https://github.com/sebasgim975/FlightReservationSystemSimulation.git
-
+```bash
+    git clone https://github.com/sebasgim975/FlightReservationSystemSimulation.git
+```
 4. Open the project in IntelliJ IDEA:
 
 -Start IntelliJ IDEA.
