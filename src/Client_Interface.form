@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Client_Interface">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="527" height="168"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="dce4f" binding="ParentPanel" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="eb5ef" binding="passengerDetails" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card1"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="true"/>
+              <foreground color="-16777216"/>
+              <maximumSize width="417" height="149"/>
+              <visible value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="7fac0" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Passenger Details"/>
+                </properties>
+              </component>
+              <component id="b4e81" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Passenger Name"/>
+                </properties>
+              </component>
+              <component id="cbfba" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Nationality"/>
+                </properties>
+              </component>
+              <component id="3a793" class="javax.swing.JTextField" binding="passengerName">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="e99e4" class="javax.swing.JButton" binding="passengerButton">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Confirm"/>
+                </properties>
+              </component>
+              <component id="c9d9f" class="javax.swing.JComboBox" binding="countryInput">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="Afghan"/>
+                    <item value="Albanian"/>
+                    <item value="Algerian"/>
+                    <item value="American"/>
+                    <item value="Andorran"/>
+                    <item value="Angolan"/>
+                    <item value="Anguillan"/>
+                    <item value="Citizen of Antigua and Barbuda"/>
+                    <item value="Argentine"/>
+                    <item value="Armenian"/>
+                    <item value="Australian"/>
+                    <item value="Austrian"/>
+                    <item value="Azerbaijani"/>
+                    <item value="Bahamian"/>
+                    <item value="Bahraini"/>
+                    <item value="Bangladeshi"/>
+                    <item value="Barbadian"/>
+                    <item value="Belarusian"/>
+                    <item value="Belgian"/>
+                    <item value="Belizean"/>
+                    <item value="Beninese"/>
+                    <item value="Bermudian"/>
+                    <item value="Bhutanese"/>
+                    <item value="Bolivian"/>
+                    <item value="Citizen of Bosnia and Herzegovina"/>
+                    <item value="Botswanan"/>
+                    <item value="Brazilian"/>
+                    <item value="British"/>
+                    <item value="British Virgin Islander"/>
+                    <item value="Bruneian"/>
+                    <item value="Bulgarian"/>
+                    <item value="Burkinan"/>
+                    <item value="Burmese"/>
+                    <item value="Burundian"/>
+                    <item value="Cambodian"/>
+                    <item value="Cameroonian"/>
+                    <item value="Canadian"/>
+                    <item value="Cape Verdean"/>
+                    <item value="Cayman Islander"/>
+                    <item value="Central African"/>
+                    <item value="Chadian"/>
+                    <item value="Chilean"/>
+                    <item value="Chinese"/>
+                    <item value="Colombian"/>
+                    <item value="Comoran"/>
+                    <item value="Congolese (Congo)"/>
+                    <item value="Congolese (DRC)"/>
+                    <item value="Cook Islander"/>
+                    <item value="Costa Rican"/>
+                    <item value="Croatian"/>
+                    <item value="Cuban"/>
+                    <item value="Cymraes"/>
+                    <item value="Cymro"/>
+                    <item value="Cypriot"/>
+                    <item value="Czech"/>
+                    <item value="Danish"/>
+                    <item value="Djiboutian"/>
+                    <item value="Dominican"/>
+                    <item value="Citizen of the Dominican Republic"/>
+                    <item value="Dutch"/>
+                    <item value="East Timorese"/>
+                    <item value="Ecuadorean"/>
+                    <item value="Egyptian"/>
+                    <item value="Emirati"/>
+                    <item value="English"/>
+                    <item value="Equatorial Guinean"/>
+                    <item value="Eritrean"/>
+                    <item value="Estonian"/>
+                    <item value="Ethiopian"/>
+                    <item value="Faroese"/>
+                    <item value="Fijian"/>
+                    <item value="Filipino"/>
+                    <item value="Finnish"/>
+                    <item value="French"/>
+                    <item value="Gabonese"/>
+                    <item value="Gambian"/>
+                    <item value="Georgian"/>
+                    <item value="German"/>
+                    <item value="Ghanaian"/>
+                    <item value="Gibraltarian"/>
+                    <item value="Greek"/>
+                    <item value="Greenlandic"/>
+                    <item value="Grenadian"/>
+                    <item value="Guamanian"/>
+                    <item value="Guatemalan"/>
+                    <item value="Citizen of Guinea-Bissau"/>
+                    <item value="Guinean&#9;Guyanese"/>
+                    <item value="Haitian&#9;Honduran"/>
+                    <item value="Hong Konger"/>
+                    <item value="Hungarian"/>
+                    <item value="Icelandic"/>
+                    <item value="Indian"/>
+                    <item value="Indonesian"/>
+                    <item value="Iranian"/>
+                    <item value="Iraqi"/>
+                    <item value="Irish"/>
+                    <item value="Israeli"/>
+                    <item value="Italian"/>
+                    <item value="Ivorian"/>
+                    <item value="Jamaican"/>
+                    <item value="Japanese"/>
+                    <item value="Jordanian"/>
+                    <item value="Kazakh"/>
+                    <item value="Kenyan"/>
+                    <item value="Kittitian"/>
+                    <item value="Citizen of Kiribati"/>
+                    <item value="Kosovan"/>
+                    <item value="Kuwaiti"/>
+                    <item value="Kyrgyz"/>
+                    <item value="Lao"/>
+                    <item value="Latvian"/>
+                    <item value="Lebanese"/>
+                    <item value="Liberian"/>
+                    <item value="Libyan"/>
+                    <item value="Liechtenstein citizen"/>
+                    <item value="Lithuanian"/>
+                    <item value="Luxembourger"/>
+                    <item value="Macanese"/>
+                    <item value="Macedonian"/>
+                    <item value="Malagasy"/>
+                    <item value="Malawian"/>
+                    <item value="Malaysian"/>
+                    <item value="Maldivian"/>
+                    <item value="Malian"/>
+                    <item value="Maltese"/>
+                    <item value="Marshallese"/>
+                    <item value="Martiniquais"/>
+                    <item value="Mauritanian"/>
+                    <item value="Mauritian"/>
+                    <item value="Mexican"/>
+                    <item value="Micronesian"/>
+                    <item value="Moldovan"/>
+                    <item value="Monegasque"/>
+                    <item value="Mongolian"/>
+                    <item value="Montenegrin"/>
+                    <item value="Montserratian"/>
+                    <item value="Moroccan"/>
+                    <item value="Mosotho"/>
+                    <item value="Mozambican"/>
+                    <item value="Namibian"/>
+                    <item value="Nauruan"/>
+                    <item value="Nepalese"/>
+                    <item value="New Zealander"/>
+                    <item value="Nicaraguan"/>
+                    <item value="Nigerian"/>
+                    <item value="Nigerien"/>
+                    <item value="Niuean"/>
+                    <item value="North Korean"/>
+                    <item value="Northern Irish"/>
+                    <item value="Norwegian"/>
+                    <item value="Omani"/>
+                    <item value="Pakistani"/>
+                    <item value="Palauan"/>
+                    <item value="Palestinian"/>
+                    <item value="Panamanian"/>
+                    <item value="Papua New Guinean"/>
+                    <item value="Paraguayan"/>
+                    <item value="Peruvian"/>
+                    <item value="Pitcairn Islander"/>
+                    <item value="Polish"/>
+                    <item value="Portuguese"/>
+                    <item value="Prydeinig"/>
+                    <item value="Puerto Rican"/>
+                    <item value="Qatari"/>
+                    <item value="Romanian"/>
+                    <item value="Russian"/>
+                    <item value="Rwandan"/>
+                    <item value="Salvadorean"/>
+                    <item value="Sammarinese"/>
+                    <item value="Samoan"/>
+                    <item value="Sao Tomean"/>
+                    <item value="Saudi Arabian"/>
+                    <item value="Scottish"/>
+                    <item value="Senegalese"/>
+                    <item value="Serbian"/>
+                    <item value="Citizen of Seychelles"/>
+                    <item value="Sierra Leonean"/>
+                    <item value="Singaporean"/>
+                    <item value="Slovak"/>
+                    <item value="Slovenian"/>
+                    <item value="Solomon Islander"/>
+                    <item value="Somali"/>
+                    <item value="South African"/>
+                    <item value="South Korean"/>
+                    <item value="South Sudanese"/>
+                    <item value="Spanish"/>
+                    <item value="Sri Lankan"/>
+                    <item value="St Helenian"/>
+                    <item value="St Lucian"/>
+                    <item value="Stateless"/>
+                    <item value="Sudanese"/>
+                    <item value="Surinamese"/>
+                    <item value="Swazi"/>
+                    <item value="Swedish"/>
+                    <item value="Swiss"/>
+                    <item value="Syrian"/>
+                    <item value="Taiwanese"/>
+                    <item value="Tajik"/>
+                    <item value="Tanzanian"/>
+                    <item value="Thai"/>
+                    <item value="Togolese"/>
+                    <item value="Tongan"/>
+                    <item value="Trinidadian"/>
+                    <item value="Tristanian"/>
+                    <item value="Tunisian"/>
+                    <item value="Turkish"/>
+                    <item value="Turkmen"/>
+                    <item value="Turks and Caicos Islander"/>
+                    <item value="Tuvaluan"/>
+                    <item value="Ugandan"/>
+                    <item value="Ukrainian"/>
+                    <item value="Uruguayan"/>
+                    <item value="Uzbek"/>
+                    <item value="Vatican citizen"/>
+                    <item value="Citizen of Vanuatu"/>
+                    <item value="Venezuelan"/>
+                    <item value="Vietnamese"/>
+                    <item value="Vincentian"/>
+                    <item value="Wallisian"/>
+                    <item value="Welsh"/>
+                    <item value="Yemeni"/>
+                    <item value="Zambian"/>
+                    <item value="Zimbabwean"/>
+                  </model>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="6240b" binding="extraServices" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card2"/>
+            </constraints>
+            <properties>
+              <visible value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="3d3af" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Extra Services"/>
+                </properties>
+              </component>
+              <component id="73e36" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Flight Insurance (£82.51)"/>
+                </properties>
+              </component>
+              <component id="cdafc" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Extra Baggage (£40.00 per bag)"/>
+                </properties>
+              </component>
+              <component id="951dd" class="javax.swing.JRadioButton" binding="noRadioInsurance">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="No"/>
+                </properties>
+              </component>
+              <component id="7296a" class="javax.swing.JRadioButton" binding="yesRadioInsurance">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Yes"/>
+                </properties>
+              </component>
+              <component id="9ce55" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Automatic Check-in"/>
+                </properties>
+              </component>
+              <component id="fb6fb" class="javax.swing.JComboBox" binding="baggageInput">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="0"/>
+                    <item value="1"/>
+                    <item value="2"/>
+                    <item value="3"/>
+                    <item value="4"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="f6c66" class="javax.swing.JRadioButton" binding="noCheckIn">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="No"/>
+                </properties>
+              </component>
+              <component id="ac588" class="javax.swing.JRadioButton" binding="yesCheckIn">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Yes"/>
+                </properties>
+              </component>
+              <component id="575c9" class="javax.swing.JButton" binding="servicesButton">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Confirm"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="c19a6" binding="Seats" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card3"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="93b1f" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Available Seats"/>
+                </properties>
+              </component>
+              <component id="da69c" class="javax.swing.JComboBox" binding="seatsInput">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <model>
+                    <item value="1A"/>
+                    <item value="1B"/>
+                    <item value="1C"/>
+                    <item value="1D"/>
+                    <item value="1E"/>
+                    <item value="1F"/>
+                    <item value="2A"/>
+                    <item value="2B"/>
+                    <item value="2C"/>
+                    <item value="2D"/>
+                    <item value="2E"/>
+                    <item value="2F"/>
+                    <item value="3A"/>
+                    <item value="3B"/>
+                    <item value="3C"/>
+                    <item value="3D"/>
+                    <item value="3E"/>
+                    <item value="3F"/>
+                    <item value="4A"/>
+                    <item value="4B"/>
+                    <item value="4C"/>
+                    <item value="4D"/>
+                    <item value="4E"/>
+                    <item value="4F"/>
+                    <item value="5A"/>
+                    <item value="5B"/>
+                    <item value="5C"/>
+                    <item value="5D"/>
+                    <item value="5E"/>
+                    <item value="5F"/>
+                    <item value="6A"/>
+                    <item value="6B"/>
+                    <item value="6C"/>
+                    <item value="6D"/>
+                    <item value="6E"/>
+                    <item value="6F"/>
+                    <item value="7A"/>
+                    <item value="7B"/>
+                    <item value="7C"/>
+                    <item value="7D"/>
+                    <item value="7E"/>
+                    <item value="7F"/>
+                    <item value="8A"/>
+                    <item value="8B"/>
+                    <item value="8C"/>
+                    <item value="8D"/>
+                    <item value="8E"/>
+                    <item value="8F"/>
+                    <item value="9A"/>
+                    <item value="9B"/>
+                    <item value="9C"/>
+                    <item value="9D"/>
+                    <item value="9E"/>
+                    <item value="9F"/>
+                    <item value="10A"/>
+                    <item value="10B"/>
+                    <item value="10C"/>
+                    <item value="10D"/>
+                    <item value="10E"/>
+                    <item value="10F"/>
+                    <item value="11A"/>
+                    <item value="11B"/>
+                    <item value="11C"/>
+                    <item value="11D"/>
+                    <item value="11E"/>
+                    <item value="11F"/>
+                    <item value="12A"/>
+                    <item value="12B"/>
+                    <item value="12C"/>
+                    <item value="12D"/>
+                    <item value="12E"/>
+                    <item value="12F"/>
+                    <item value="13A"/>
+                    <item value="13B"/>
+                    <item value="13C"/>
+                    <item value="13D"/>
+                    <item value="13E"/>
+                    <item value="13F"/>
+                    <item value="14A"/>
+                    <item value="14B"/>
+                    <item value="14C"/>
+                    <item value="14D"/>
+                    <item value="14E"/>
+                    <item value="14F"/>
+                    <item value="15A"/>
+                    <item value="15B"/>
+                    <item value="15C"/>
+                    <item value="15D"/>
+                    <item value="15E"/>
+                    <item value="15F"/>
+                    <item value="16A"/>
+                    <item value="16B"/>
+                    <item value="16C"/>
+                    <item value="16D"/>
+                    <item value="16E"/>
+                    <item value="16F"/>
+                    <item value="17A"/>
+                    <item value="17B"/>
+                    <item value="17C"/>
+                    <item value="17D"/>
+                    <item value="17E"/>
+                    <item value="17F"/>
+                    <item value="18A"/>
+                    <item value="18B"/>
+                    <item value="18C"/>
+                    <item value="18D"/>
+                    <item value="18E"/>
+                    <item value="18F"/>
+                    <item value="19A"/>
+                    <item value="19B"/>
+                    <item value="19C"/>
+                    <item value="19D"/>
+                    <item value="19E"/>
+                    <item value="19F"/>
+                    <item value="20A"/>
+                    <item value="20B"/>
+                    <item value="20C"/>
+                    <item value="20D"/>
+                    <item value="20E"/>
+                    <item value="20F"/>
+                    <item value="21A"/>
+                    <item value="21B"/>
+                    <item value="21C"/>
+                    <item value="21D"/>
+                    <item value="21E"/>
+                    <item value="21F"/>
+                    <item value="22A"/>
+                    <item value="22B"/>
+                    <item value="22C"/>
+                    <item value="22D"/>
+                    <item value="22E"/>
+                    <item value="22F"/>
+                    <item value="23A"/>
+                    <item value="23B"/>
+                    <item value="23C"/>
+                    <item value="23D"/>
+                    <item value="23E"/>
+                    <item value="23F"/>
+                    <item value="24A"/>
+                    <item value="24B"/>
+                    <item value="24C"/>
+                    <item value="24D"/>
+                    <item value="24E"/>
+                    <item value="24F"/>
+                    <item value="25A"/>
+                    <item value="25B"/>
+                    <item value="25C"/>
+                    <item value="25D"/>
+                    <item value="25E"/>
+                    <item value="25F"/>
+                    <item value="26A"/>
+                    <item value="26B"/>
+                    <item value="26C"/>
+                    <item value="26D"/>
+                    <item value="26E"/>
+                    <item value="26F"/>
+                    <item value="27A"/>
+                    <item value="27B"/>
+                    <item value="27C"/>
+                    <item value="27D"/>
+                    <item value="27E"/>
+                    <item value="27F"/>
+                    <item value="28A"/>
+                    <item value="28B"/>
+                    <item value="28C"/>
+                    <item value="28D"/>
+                    <item value="28E"/>
+                    <item value="28F"/>
+                    <item value="29A"/>
+                    <item value="29B"/>
+                    <item value="29C"/>
+                    <item value="29D"/>
+                    <item value="29E"/>
+                    <item value="29F"/>
+                    <item value="30A"/>
+                    <item value="30B"/>
+                    <item value="30C"/>
+                    <item value="30D"/>
+                    <item value="30E"/>
+                    <item value="30F"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="11153" class="javax.swing.JButton" binding="seatsButton">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Confirm"/>
+                </properties>
+              </component>
+              <component id="de32e" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Rows 1-6 Business Class (+£95)"/>
+                </properties>
+              </component>
+              <component id="d4c73" class="javax.swing.JLabel" binding="imageSeats" custom-create="true">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="63947" binding="paymentDetails" layout-manager="GridLayoutManager" row-count="5" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <card name="Card4"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="2d6ad" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Payment Details"/>
+                </properties>
+              </component>
+              <component id="1ac9e" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Card Number"/>
+                </properties>
+              </component>
+              <component id="edd6f" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Expiration Date(**/20**)"/>
+                </properties>
+              </component>
+              <component id="cf2b7" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Security Code"/>
+                </properties>
+              </component>
+              <component id="559ee" class="javax.swing.JTextField" binding="numCardInput">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="9e4f6" class="javax.swing.JTextField" binding="expirationDateInput">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="a5121" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="/"/>
+                </properties>
+              </component>
+              <component id="f0fd6" class="javax.swing.JTextField" binding="Year">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="6eab5" class="javax.swing.JComboBox" binding="Month">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="01"/>
+                    <item value="02"/>
+                    <item value="03"/>
+                    <item value="04"/>
+                    <item value="05"/>
+                    <item value="06"/>
+                    <item value="07"/>
+                    <item value="08"/>
+                    <item value="09"/>
+                    <item value="10"/>
+                    <item value="11"/>
+                    <item value="12"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="3a28a" class="javax.swing.JComboBox" binding="paymentMethod">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <model>
+                    <item value="Visa"/>
+                    <item value="MasterCard"/>
+                    <item value="American Express"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="b0b2" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Payment Method"/>
+                </properties>
+              </component>
+              <component id="e13d0" class="javax.swing.JButton" binding="paymentButton">
+                <constraints>
+                  <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Confirm"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
