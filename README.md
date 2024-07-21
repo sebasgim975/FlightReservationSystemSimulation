@@ -30,7 +30,7 @@ Booking data is stored and can be accessed on the text file Client_Flight_Info.t
 
 -Git is required for version control management and cloning the repository. Download and install it from [Git’s official site](https://git-scm.com/downloads).
 
-5. Clone the repository by inputting the following to a Terminal:
+4. Clone the repository by inputting the following to a Terminal:
 ```bash
     git clone https://github.com/sebasgim975/FlightReservationSystemSimulation.git
 ```
