@@ -26,11 +26,15 @@ Booking data is stored and can be accessed on the text file Client_Flight_Info.t
 
 -Download and install IntelliJ IDEA following the instructions on the site.
 
-3. Clone the repository by inputting the following to a Terminal:
+3. Git:
+   
+   -Git is required for version control management and downloading the repository. Download and install it from [Git’s official site](https://git-scm.com/downloads).
+
+4. Clone the repository by inputting the following to a Terminal:
 ```bash
     git clone https://github.com/sebasgim975/FlightReservationSystemSimulation.git
 ```
-4. Open the project in IntelliJ IDEA:
+5. Open the project in IntelliJ IDEA:
 
 -Start IntelliJ IDEA.
 
@@ -38,7 +42,7 @@ Booking data is stored and can be accessed on the text file Client_Flight_Info.t
 
 -Select the project to open it.
 
-5. Configure the JDK:
+6. Configure the JDK:
 
 -Go to File > Project Structure > Project.
 
